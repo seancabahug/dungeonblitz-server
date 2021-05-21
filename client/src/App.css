@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Thaleah Fat';
+  src: local('ThaleahFat'), url(./fonts/ThaleahFat.ttf) format('truetype')
+}
+
+h1 {
+  font-family: 'Thaleah Fat';
+  font-size: 2rem;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  height: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
